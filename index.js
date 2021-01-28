@@ -29,8 +29,9 @@ function calc(){
     let sumfin=0;
     for (let i = 1; i<=count; i++) {
         let num = document.getElementById(String(i)).value
-        if (num==''){
-           continue
+        if (num=='' || num>100 || num<0){
+            var err = document.getElementById("errorm");
+            err.classList.remove("hidden");
         }
         else{
         sum+=parseInt(num);
@@ -84,8 +85,16 @@ let res = document.getElementById('fin')
 res.innerHTML=gpa;
 var ele = document.getElementById("resultm");
   ele.classList.remove("hidden");
-var remo = document.getElementById('bod');
 
 
+
+
+}
+
+function error(){
+    var err = document.getElementById("errorm");
+            err.classList.add("hidden");
+    var ele = document.getElementById("resultm");
+            ele.classList.add("hidden");
 
 }
