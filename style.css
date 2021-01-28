@@ -13,13 +13,13 @@
   text-align: center !important;
   position: fixed;
  top: 100px;
-  
+  left:10px;
  background-color: black;
- width: 400px;
+ width: 300px;
  height: 400px;
  padding: 50px;
  color: aliceblue;
- margin: 50px ;
+ margin: 50px 30px ;
 }
 
 .hidden{
