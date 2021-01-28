@@ -1,0 +1,37 @@
+.header{
+    text-align: center;
+    
+    }
+.form{
+   text-align: center;
+}
+.marks{
+   text-align: center;
+}
+.result {
+  
+  text-align: center !important;
+  position: fixed;
+ top: 100px;
+  
+ background-color: black;
+ width: 400px;
+ height: 400px;
+ padding: 50px;
+ color: aliceblue;
+ margin: 50px ;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+h2{
+    font-size: 30px !important;
+    
+}
+body{
+    background-color:#f1f1f1;
+}
+
+
